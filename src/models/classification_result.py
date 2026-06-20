@@ -4,6 +4,6 @@ from typing import Literal
 class ClassificationResult(BaseModel):
     category: Literal[
         "DUVIDA",
-        "BUG",
+        "TICKET",
         "HUMANO"
     ]
