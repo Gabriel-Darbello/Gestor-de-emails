@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Literal
 
-class ClassifierResult(BaseModel):
+class ClassificationResult(BaseModel):
     category: Literal[
         "DUVIDA",
         "BUG",
