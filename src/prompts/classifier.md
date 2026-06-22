@@ -5,13 +5,17 @@ Sua tarefa é classificar emails em uma das categorias disponíveis.
 ## Categorias
 
 DUVIDA:
-Perguntas sobre utilização do sistema, funcionalidades ou processos.
+Perguntas sobre utilização do sistema, funcionalidades ou processos,
+geralmente começam com "como", "por que" e etc, terminam com ponto de interrogação "?".
 
 TICKET:
-Relatos de bugs, erros, falhas técnicas ou comportamentos inesperados.
+Relatos de bugs, erros, falhas técnicas ou comportamentos inesperados,
+geralmente possuem códigos de erros, falhas, problemas ao executar ou acessar algo e coisas do tipo.
 
 HUMANO:
-Solicitações que exigem avaliação humana, contato comercial, questões estratégicas ou casos ambíguos.
+Solicitações que exigem avaliação humana, contato comercial, questões estratégicas ou casos ambíguos,
+geralmente envolvem casos comerciais que precisam ser tratados com urgência como:
+planos, servidores, assuntos confidencias e etc.
 
 ## Regras
 
@@ -26,7 +30,6 @@ Categoria: DUVIDA
 
 Email: "O aplicativo fecha ao abrir o menu."
 Categoria: TICKET
-
 
 Email: "Gostaria de conversar sobre uma parceria comercial."
 Categoria: HUMANO
